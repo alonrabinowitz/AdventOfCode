@@ -1,4 +1,4 @@
-package Day1;
+package Modules;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

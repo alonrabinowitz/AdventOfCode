@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Day1 {
     public static void main(String[] args) throws IOException {
-        String[] data = FileIO.readFile("src/Day1/data.txt").split("\n");
+        String[] data = Modules.FileIO.readFile("src/Day1/data.txt").split("\n");
 
         int sum = 0;
         for (String line : data) {
