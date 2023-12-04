@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class Day2 {
     public static void main(String[] args) throws IOException {
-        String[] games = Modules.FileIO.readFile("src/Day2/data.txt").split("\n");
+        String[] games = Utils.FileIO.readFile("src/Day2/data.txt").split("\n");
         int sum = 0;
         boolean valid = true;
         for (int i = 0; i < games.length; i++) {
